@@ -1,13 +1,14 @@
 body{
-    background-color:#1C130A;
+    background-color:#939594;
+    background: url("cinema.jpg");
+    background-repeat: repeat-y;
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 #back{
     text-align: center;
-    background: url("cinema.jpg") no-repeat center center fixed;
-    height: 99vh;
-    background-size: cover;
 }
+
 
 #input{
     margin-top: 30vh;
@@ -15,12 +16,13 @@ body{
 
 #text{
     border: none;
-    background-color:#1D120B;
+    background-color:#323337;
     width: 42vw;
     margin-top: 2vh;
     font-size: 2vw;
     height: 10vh;
     border-radius: 3em;
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 #sub{
@@ -29,5 +31,6 @@ body{
     height: 8vh;
     width: 8vh;
     margin-right: 10em;
-    background-color:#D91231;
+    background-color:#323337;
+    font-family: 'Hind Madurai', sans-serif;    
 }
