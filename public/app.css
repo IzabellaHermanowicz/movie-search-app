@@ -1,36 +1,57 @@
+
 body{
-    background-color:#939594;
-    background: url("cinema.jpg");
-    background-repeat: repeat-y;
-    font-family: 'Hind Madurai', sans-serif;
+    background-image: url(cinema.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Slab', serif;
 }
 
 #back{
     text-align: center;
 }
 
+.title{
+    margin-top: 10vh;
+    font-family: 'Alfa Slab One', cursive;
+}
 
 #input{
-    margin-top: 30vh;
+    margin-top: 5vh;
+    margin-left: 10vh;
 }
 
 #text{
-    border: none;
-    background-color:#323337;
-    width: 42vw;
+    width: 30vw;
     margin-top: 2vh;
-    font-size: 2vw;
-    height: 10vh;
-    border-radius: 3em;
-    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1em;
+    height: 7vh;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 1em;
 }
 
 #sub{
-    border-radius: 3em;
     border: none;
-    height: 8vh;
-    width: 8vh;
-    margin-right: 10em;
-    background-color:#323337;
-    font-family: 'Hind Madurai', sans-serif;    
+    height: 7vh;
+    width: 7vw;
+    margin-left: 1em;
+    margin-right: 5em;
+    font-family: 'Roboto Slab', serif;
+}
+
+#error{
+    margin-top: 20vh;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: .3em;
+    text-shadow:0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
 }
